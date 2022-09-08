@@ -1,0 +1,109 @@
+.button {
+  padding: 0 1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  white-space: nowrap;
+  text-transform: uppercase;
+  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.button:disabled {
+  cursor: not-allowed;
+}
+
+.btnPrimary {
+  color: black;
+  background-color: #fff;
+}
+
+.btnPrimary:disabled {
+  color: gray;
+}
+
+.btnTransparent {
+  color: black;
+  background-color: rgba(128, 128, 128, 0.142);
+}
+
+.btnTransparent:disabled {
+  color: gray;
+}
+
+.btnOutline {
+  border: 1px solid white;
+  color: black;
+  background-color: transparent;
+}
+
+.btnOutline:disabled {
+  color: gray;
+}
+
+.btnPrimaryColor {
+  background-color: #1565c0;
+  color: aliceblue;
+}
+
+.btnPrimaryColor:disabled {
+  color: gray;
+}
+
+.btnDanger {
+  background-color: #efdb00;
+  color: black;
+}
+
+.btnDanger:disabled {
+  color: gray;
+}
+
+.btnOutline.btnRed {
+  border: 1px solid #f33d3d;
+  color: #f33d3d;
+}
+
+.btnOutline.btnRed:hover {
+  background-color: #f33d3d;
+  color: #fff;
+}
+
+.btnOutline.btnRed:disabled {
+  color: gray;
+}
+
+.btnPrimary.btnRed {
+  color: #fff;
+  background-color: #f33d3d;
+}
+
+.btnPrimary.btnRed:hover {
+  background-color: rgba(243, 61, 61, 0.692);
+}
+
+.btnPrimary.btnRed:disabled {
+  color: gray;
+}
+
+.btnLarge {
+  min-width: 13rem;
+  width: 13rem;
+  height: 3rem;
+}
+
+.btnMiddle {
+  min-width: 11.5rem;
+  width: 11.5rem;
+  height: 2.5rem;
+}
+
+.btnSmall {
+  min-width: 7rem;
+  width: 7rem;
+  height: 2.5rem;
+}
+/*# sourceMappingURL=button.module.css.map */
